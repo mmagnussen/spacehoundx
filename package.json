@@ -1,0 +1,26 @@
+{
+  "name": "spacehoundx",
+  "version": "1.0.0",
+  "description": "React version of spacehound",
+  "main": "index.js",
+  "scripts": {
+    "start": "node buildScripts/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmagnussen/spacehoundx.git"
+  },
+  "author": "Mike Magnussen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmagnussen/spacehoundx/issues"
+  },
+  "homepage": "https://github.com/mmagnussen/spacehoundx#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "open": "0.0.5"
+  }
+}
