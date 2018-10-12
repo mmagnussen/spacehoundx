@@ -1,9 +1,14 @@
-import webpack from 'webpack';
-import config from '../webpack.config.dev';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const compiler = webpack(config);
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>Howdy from React!</h1>
+            </div>
+        )
+    }
+}
 
-app.use(require('webpack-dev-middleware')(compiler, {
-    noInfo: true,
-    publicPath: config.output.publicPath
-}));
+ReactDOM.render(<App />, document.getElementById('root'));
